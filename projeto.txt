@@ -7,9 +7,11 @@ credit-card-customer-churn/
 │
 ├── notebooks/
 │   └── analise_clientes.ipynb            # notebook exploratório (EDA)
+│   └── analise_exploratoria.ipynb
 │
 ├── scripts/
-│   └── ccAnalise.py                      # script principal de limpeza/resumo
+│   └── ccAnalise.py                      # script principal de resumo
+│   └── limpeza_dados.py                  # script principal de limpeza
 │
 ├── dashboard/
 │   └── dashboard_churn.pbix              # dashboard Power BI
