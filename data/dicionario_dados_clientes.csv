@@ -1,0 +1,28 @@
+coluna_pt,origem_en,tipo,descricao
+id_cliente,CLIENTNUM,texto,Identificador único do cliente
+situacao_cliente,Attrition_Flag,categoria,Status do cliente: Cliente Ativo ou Cliente Perdido (churn)
+idade,Customer_Age,numérico,Idade do cliente
+genero,Gender,categoria,Gênero do cliente
+qtde_dependentes,Dependent_count,numérico,Quantidade de dependentes
+escolaridade,Education_Level,categoria,Nível de escolaridade
+estado_civil,Marital_Status,categoria,Estado civil
+faixa_renda,Income_Category,categoria,Faixa de renda declarada
+categoria_cartao,Card_Category,categoria,"Categoria do cartão (Azul, Prata, Ouro, Platina)"
+meses_relacionamento,Months_on_book,numérico,Tempo de relacionamento (meses)
+qtde_produtos,Total_Relationship_Count,numérico,Quantidade de produtos mantidos com o banco
+meses_inativo_12m,Months_Inactive_12_mon,numérico,Meses inativo nos últimos 12 meses
+qtde_contatos_12m,Contacts_Count_12_mon,numérico,Contatos com o banco nos últimos 12 meses
+limite_credito,Credit_Limit,numérico,Limite total do cartão
+saldo_rotativo_total,Total_Revolving_Bal,numérico,Saldo rotativo (carregado mês a mês)
+limite_disponivel_medio,Avg_Open_To_Buy,numérico,Limite médio disponível
+mudanca_valor_transacoes_Q4_Q1,Total_Amt_Chng_Q4_Q1,numérico,Mudança do valor gasto do 1º para o 4º trimestre
+valor_total_transacoes,Total_Trans_Amt,numérico,Valor total transacionado (12 meses)
+qtde_total_transacoes,Total_Trans_Ct,numérico,Quantidade total de transações (12 meses)
+mudanca_qtde_transacoes_Q4_Q1,Total_Ct_Chng_Q4_Q1,numérico,Mudança na quantidade de transações do 1º para o 4º trimestre
+taxa_utilizacao_media,Avg_Utilization_Ratio,numérico,Razão média de utilização do limite (0–1)
+faixa_etaria,-,derivada,Faixas etárias criadas a partir de idade
+anos_relacionamento,-,derivada,Tempo de relacionamento em anos
+valor_medio_transacao,-,derivada,Valor médio por transação
+percentual_limite_usado,-,derivada,% do limite utilizado
+categoria_cartao_nivel,-,derivada,Codificação ordinal da categoria do cartão (1–4)
+alvo_churn,-,derivada,Variável alvo binária (1 = Cliente Perdido)

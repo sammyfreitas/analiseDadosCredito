@@ -1,0 +1,23 @@
+credit-card-customer-churn/
+│
+├── data/
+│   ├── BankChurners.csv                  # dataset original (cru)
+│   ├── clientes_cartao_limpo.csv         # dataset limpo (gerado no script)
+│   └── dicionario_dados_clientes.csv     # dicionário de dados (em PT)
+│
+├── notebooks/
+│   └── analise_clientes.ipynb            # notebook exploratório (EDA)
+│
+├── scripts/
+│   └── ccAnalise.py                      # script principal de limpeza/resumo
+│
+├── dashboard/
+│   └── dashboard_churn.pbix              # dashboard Power BI
+│
+├── img/
+│   ├── dashboard_overview.png            # print do dashboard
+│   ├── churn_por_estado.png              # gráficos do Python
+│   └── churn_por_faixa_etaria.png
+│
+├── README.md                             # documentação do projeto
+└── requirements.txt                      # dependências (pandas, numpy, etc.)
