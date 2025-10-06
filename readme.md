@@ -12,13 +12,13 @@ O objetivo é identificar os **principais fatores que influenciam a perda de cli
 
 ## 📂 Estrutura do Projeto
 
-credit-card-customer-churn/
-├── data/ # Dados originais e tratados
-├── notebooks/ # Notebooks de análise e EDA
-├── scripts/ # Scripts Python para limpeza e tratamento
-├── dashboard/ # Dashboard Power BI
-├── img/ # Imagens e prints para o README
-└── README.md # Documentação
+credit-card-customer-churn/<br>
+├── data/ # Dados originais e tratados<br>
+├── notebooks/ # Notebooks de análise e EDA<br>
+├── scripts/ # Scripts Python para limpeza e tratamento<br>
+├── dashboard/ # Dashboard Power BI<br>
+├── img/ # Imagens e prints para o README<br>
+└── README.md # Documentação<br>
 
 
 ---
@@ -90,12 +90,13 @@ numpy
 matplotlib
 seaborn
 
-## 📘 **Para instalar via terminal:`**
+## 📘 **Para instalar via terminal:**
 pip install -r requirements.txt
+
 ---
-## 📘 **Para criar o `requirements.txt`**
-No terminal:
+## 📘 **Para criar o `requirements.txt` via terminal**
 pip freeze > requirements.txt
+
 ---
 🖼️ Dashboard Power BI
 Principais métricas:
@@ -110,8 +111,8 @@ Principais métricas:
 - Publicar o dashboard Power BI no Power BI Service e vincular ao GitHub
 
 👤 Autor
-Anthony Freitas
-Engenheiro e Professor
+**Anthony Freitas**<br>
+Engenheiro e Professor<br>
 📱 WhatsApp: [Chat](https://wa.me/5521986140005)  
 💼 LinkedIn: [Anthony S. S. Freitas](https://www.linkedin.com/in/tony-s-freitas/)  
 🐙 GitHub: [sammyfreitas](https://github.com/sammyfreitas)  
@@ -120,5 +121,3 @@ Engenheiro e Professor
 🐦 Twitter: [TonySdeFreitas](https://twitter.com/TonySdeFreitas)  
 💬 Discord: [Canal](https://discord.com/channels/999307907160088607/999307907160088609)  
 🧳 Portfólio: [Portfolio Site](https://sammyfreitas.github.io/portfolioSite/)
-
-
