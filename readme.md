@@ -13,12 +13,29 @@ O objetivo é identificar os **principais fatores que influenciam a perda de cli
 ## 📂 Estrutura do Projeto
 
 credit-card-customer-churn/<br>
-├── data/ # Dados originais e tratados<br>
-├── notebooks/ # Notebooks de análise e EDA<br>
-├── scripts/ # Scripts Python para limpeza e tratamento<br>
-├── dashboard/ # Dashboard Power BI<br>
-├── img/ # Imagens e prints para o README<br>
-└── README.md # Documentação<br>
+├── dashboard/                  # Dashboard Power BI<br>
+├────── AzulPet_LaranjaTema.json <br>
+├────── dashboard_churn.pbix    <br>
+├── data/                       # Dados originais e tratados<br>
+├────── BankChurners.csv <br>
+├────── churn_por_estado.csv <br>
+├────── clientes_cartao_limpo.csv <br>
+├────── dicionario_dados_clientes.csv <br>
+├── /img/                       # Imagens e prints para o README<br>
+├────── AnaliseCCedito.png <br>
+├────── analisecredito.jpg <br>
+├────── analisecredito.png <br>
+├────── churn_por_categoria_cartao.png <br>
+├────── churn_por_faixa_etaria.png <br>
+├────── dashboard_overview.png <br>
+├── notebooks/                  # Notebooks de análise e EDA<br>
+├── scripts/                    # Scripts Python para limpeza e tratamento<br>
+├────── ccAnalise.py <br>
+├────── limpeza_dados.py <br>
+├── LICENSE <br>
+├── projeto.txt <br>
+├── README.md                   # Documentação <br>
+└── requirements.txt <br>
 
 
 ---
@@ -98,7 +115,7 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 
 ---
-🖼️ Dashboard Power BI
+🖼️ ![Dashboard Power BI](img/dashboard_overview.png)
 Principais métricas:
 - Taxa de churn geral
 - Idade média dos clientes
